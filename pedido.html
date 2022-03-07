@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <h1>Aqui se hace el pedido</h1>
+    <form action="pedido.js">
+        <label for="nombre">Dame tu nombre: </label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre"><br>
+
+        <label for="telefono">Dame tu número telefonico: </label><br>
+        <input type="tel" id="telefono" name="telefono" placeholder="55551120811"><br>
+
+        <label for="email">Dame tu correo electronico: </label><br>
+        <input type="email" id="email" name="email" placeholder="franciscoatla@gmail.com"><br>
+
+        <label for="descripcion">Descripcion de su pastel: </label><br>
+        <input type="text" id="descripcion" name="descripcion" placeholder="Pastel de Fresa con crema"><br>
+
+        <p>Seleccione el sabor de su preferencia: </p>
+        <input type="checkbox" id="Andromeda" name="Andromeda" value="Andromeda">
+        <label for="Andromeda">Andromeda</label><br>
+        <input type="checkbox" id="Cygnus" name="Cygnus" value="Cygnus">
+        <label for="Cygnus">Cygnus</label><br>
+        <input type="checkbox" id="VíaLactea" name="VíaLactea" value="VíaLactea">
+        <label for="VíaLactea">VíaLactea</label><br>
+        <input type="checkbox" id="Sirio" name="Sirio" value="Sirio">
+        <label for="Sirio">Sirio</label><br>
+        <input type="checkbox" id="Europa" name="Europa" value="Europa">
+        <label for="Europa">Europa</label>
+
+        <p>¿Qué adorno quiere que lleve su pastel?</p>
+        <select name="adorno" id="adorno">
+            <option value="Pajaritos">Pajaritos</option>
+            <option value="Corazones">Corazones</option>
+            <option value="feliz">Feliz Cumpleaños</option>
+            <option value="among">Among Us</option>
+        </select><br>
+
+        <input type="reset"> <br>
+        <input type="submit"><br>
+        
+    </form>
+    <a href="pastelero.html"><input type="button" value="Pastelero"></a>
+</body>
+</html>
